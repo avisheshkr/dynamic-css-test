@@ -6,7 +6,7 @@ const useDynamicCSSImport = () => {
     const currentURL = window.location.hostname;
 
     const urlToCssMap: any = {
-      "karkhana.com": "netlify.css",
+      "dynamiccss-test.netlify.app": "netlify.css",
       // Add more URL-CSS mappings as needed
     };
 
