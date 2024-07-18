@@ -15,7 +15,7 @@ const useDynamicCSSImport = () => {
 
     const link = document.createElement("link");
     link.rel = "stylesheet";
-    link.href = `/${cssFile}`;
+    link.href = `/styles/${cssFile}`;
     document.head.appendChild(link);
 
     // Cleanup function to remove the link element when the component unmounts
